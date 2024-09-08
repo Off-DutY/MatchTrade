@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.5.0" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+        <PackageReference Include="EtcdGmLock" Version="1.0.23" />
+        <PackageReference Include="GameSupplierApi.Common" Version="1.24.226.1759" />
+        <PackageReference Include="GameSupplierApi.Cryptography" Version="1.19.807.1120" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
+        <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="2.3.2" />
+        <PackageReference Include="MyCSharp.HttpUserAgentParser" Version="2.0.1" />
+        <PackageReference Include="QRCoder" Version="1.4.3" />
+        <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+        <PackageReference Include="Serilog.Sinks.Graylog" Version="2.3.0" />
+        <PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="7.2.1" />
+        <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="7.2.1" />
+        <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="7.2.1" />
+        <PackageReference Include="System.Runtime.Caching" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
