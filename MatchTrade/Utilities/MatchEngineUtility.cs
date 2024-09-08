@@ -17,6 +17,7 @@ namespace MatchTrade.Utilities
         /// value mean MmPayBoardId
         /// </summary>
         public static string MmOrderRespondRedisKey = "MatchTrade:MmOrderRespond:{0}:{1}";
+
         /// <Summary>
         /// 买订单簿BID
         /// </Summary>
@@ -195,10 +196,6 @@ namespace MatchTrade.Utilities
             return rsg;
         }
 
-        /// <Symmary>
-        /// @Title: autoToCancel @Description: TODO(用于自动转撤销) @param orderType 参数 @return
-        /// bool 返回类型 @throws
-        /// </Symmary>
         public static bool AutoToCancel(EnumOrderType orderType)
         {
             if (_autoCancel.Contains(orderType))
